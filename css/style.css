@@ -98,6 +98,13 @@ body{
 }
 
 
+.menu-toggler.active{
+    right: 0;
+}
+
+
+
+
 #about{
     height: 700px;
     min-height: 500px;
@@ -435,11 +442,11 @@ footer span a:hover{
         width: 100%;
         background-color: #353b48;
         top:0;
-        right: 0;
+        right: -400px;
         max-width: 400px;
         padding: 80px 50px;
         transition: .3s linear;
-        display: none;
+        /* display: none; */
     }
     .navbar-menu a{
         display: block;
@@ -449,6 +456,9 @@ footer span a:hover{
     }
     .sticky .navbar-menu{
         background-color: #f1f1f1;
+    }
+    .navbar-menu.active {
+        right: 0;   
     }
 
 
@@ -533,25 +543,19 @@ footer span a:hover{
         height: 20px; 
     }
     
-
-
-
 } 
   
-    /* .navbar-menu.active{
-        right: 0;   
-    }
-    .menu-toggler .active span:nth-child(1){
-        transform: rotate(-45deg);
-        top: 4px;
-    }
-    .menu-toggler .active span:nth-child(2){
-       opacity: 0;
-    }
-    .menu-toggler .active span:nth-child(3){
-        transform: rotate(45deg);
-        bottom: 14px;
-    } */
+/* .menu-toggler .active  span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 4px;
+}
+.menu-toggler .active  span:nth-child(2){
+   opacity: 0;
+}
+.menu-toggler .active  span:nth-child(3){
+    transform: rotate(45deg);
+    bottom: 14px;
+}     */
 
 
 
